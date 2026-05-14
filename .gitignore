@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+wandb/
+
+# Model checkpoints
+*.ckpt
+*.pth
+*.bin
+*.safetensors
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+*.exe
+
+# Custom ignore rules
+temp*
+temp_*
+local_*
+*.local
+local/
+**/results
+**/statistics
+**/cloud
+**/workdir
+questions.jsonl
